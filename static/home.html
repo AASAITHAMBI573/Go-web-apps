@@ -2,90 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salman S - Cloud & DevOps Specialist</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #2C3E50, #3498DB);
+            color: #fff;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-color: #1A252F;
+            padding: 15px 0;
         }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            color: #fff;
+        nav a {
+            margin: 0 15px;
+            color: #00FFAB;
             text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
         }
 
-        main {
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
         }
 
-        section {
-            margin-bottom: 20px;
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #1A252F;
+            color: #fff;
         }
-    </style>    
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Navigation Section -->
     <header>
         <nav>
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contact">Contact</a></li>
-                <li><a href="courses">Courses</a></li>
-            </ul>
+            <a href="home">Home</a>
+            <a href="projects">Assignments and Projects</a>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h1>Learn DevOps from Basics</h1>
-            <p>The main purpose of this website is to guide people on how to learn DevOps 
-                from basics for Free. We will provide you with the best resources to learn.
-            </p>
-        </section>
+    <!-- Main Content: Home Section -->
+    <h1>Salman S</h1>
+    <div class="container">
+        <div class="content-box">
+            <p>A seasoned Cloud Computing and DevOps Specialist based in Bengaluru, Karnataka, with a strong focus on Amazon Web Services (AWS), Microsoft Azure, and DevOps methodologies. Since January 2024, this professional has been dedicated to enhancing their skill set and implementing innovative cloud solutions that drive business success.</p>
 
-        <section>
-            <h2>Overview</h2>
-            <p> Zero to Hero courses on all DevOps tools and popular Cloud(AWS and Azure) platform</p>
-        </section>
+            <p>With a proven track record in deploying cost-effective and scalable cloud architectures, expertise in AWS Solutions Architect principles has led to a 15% reduction in infrastructure costs for clients. Hands-on experience includes designing and implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines using Jenkins, achieving a 40% reduction in deployment times. Additionally, automating cloud infrastructure provisioning has resulted in a 25% increase in resource utilization.</p>
 
-        <section>
-            <h2>Courses Offered</h2>
-            <p>Please look at the <a href="courses">courses</a> section.</p>  
-        </section>
-    </main>
+            <p>Technical proficiency spans a wide range of tools and technologies, including AWS, Azure, Docker, Kubernetes, Terraform, and more. Holding several industry-recognized certifications in AWS, Azure, and DevOps underscores a commitment to professional development and staying at the forefront of industry trends.</p>
+
+            <p>With a passion for cloud-native and automation technologies, this specialist is a valuable asset for any organization seeking to enhance its cloud engineering and DevOps capabilities.</p>
+        </div>
+    </div>
 
     <footer>
-        <p>&copy; Abhishek.Veeramalla</p>
+        <p>&copy; 2024 Salman S | Cloud & DevOps Specialist</p>
     </footer>
+
 </body>
 </html>
