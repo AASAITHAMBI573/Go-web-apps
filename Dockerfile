@@ -16,7 +16,7 @@ COPY . .
 # Build the application
 RUN go build -o main .
 
-#######################################################
+########################################################
 # Reduce the image size using multi-stage builds
 # We will use a distroless image to run the application
 FROM gcr.io/distroless/base
